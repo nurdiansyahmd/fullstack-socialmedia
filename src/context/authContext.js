@@ -11,7 +11,7 @@ export const AuthContextProvider = ({children}) => {
         setCurrentUser({
             id: 1,
             name: "Lucas will",
-            profilePicture: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+            profilePicture: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         })
     }
 
