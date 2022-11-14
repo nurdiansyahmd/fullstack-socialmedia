@@ -23,6 +23,9 @@
                 background-color: transparent;
                 color: themed("textColor");
                 outline: none;
+                @include mobile{
+                    width: 150px;
+                }
             }
 
             button{
@@ -32,6 +35,10 @@
                 padding: 10px;
                 cursor: pointer;
                 border-radius: 3px;
+            }
+
+            @include mobile{
+                width: 100px;
             }
         }
 

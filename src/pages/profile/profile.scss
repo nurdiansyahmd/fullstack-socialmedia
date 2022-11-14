@@ -31,7 +31,11 @@
             padding: 20px 70px;
 
             @include mobile{
-                padding: 10px;
+                padding: 0px 10px;
+            }
+
+            @include tablet{
+                padding: 20px;
             }
 
             .uInfo{
@@ -59,11 +63,16 @@
                     flex: 1;
                     display: flex;
                     gap: 10px;
-
+                    
+                    @include tablet{
+                        flex-wrap: wrap;
+                    }
+                    
                     a{
                         color: themed("textColorSoft");
 
                     }
+
                 }
                 .center{
                     flex: 1;
